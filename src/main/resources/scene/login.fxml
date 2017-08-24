@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <Label alignment="CENTER" prefHeight="70.0" prefWidth="605.0" text="Selamat , Login Berhasil" textFill="#04dd0b" BorderPane.alignment="CENTER_LEFT">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+   </center>
+   <bottom>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <Button fx:id="bSignOut" mnemonicParsing="false" onAction="#doSignOut" prefHeight="25.0" prefWidth="138.0" text="Log Out" />
+        </items>
+      </ToolBar>
+   </bottom>
+</BorderPane>
